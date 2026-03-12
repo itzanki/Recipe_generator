@@ -22,7 +22,6 @@ const Explore = () => {
     setIsModalOpen(false);
     setSelectedRecipe(null);
   };
-
   const categories = [
     { id: 'trending', label: 'Trending Now', icon: TrendingUp, color: 'red' },
     { id: 'quick', label: 'Quick & Easy', icon: Zap, color: 'green' },
