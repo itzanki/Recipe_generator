@@ -20,7 +20,7 @@ connectDB();
 
 // CORS configuration - Allow frontend connection
 app.use(cors({
-  origin: ['http://localhost:3000', "https://flavourcraftt.netlify.app"],
+  origin:'http://localhost:3000',
   credentials: true
 }));
 
