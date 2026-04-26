@@ -20,9 +20,9 @@ connectDB();
 
 // CORS configuration - Allow frontend connection
 app.use(cors({
-  origin:['http://localhost:3000',
-  "https://recipe-generator-pink.vercel.app"
-  ],
+  origin: function (origin, callback) {
+    callback(null, true);
+  },
   credentials: true
 }));
 
